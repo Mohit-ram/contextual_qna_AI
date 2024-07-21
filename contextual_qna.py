@@ -26,6 +26,7 @@ llm=ChatGroq(groq_api_key=groq_api_key,model_name="Llama3-8b-8192")
 st.title("Contextual Q&A with Chat History ")
 st.write("Upload Pdf's and ask about them")
 st.write("AI can only respond regarding the context and amount of context provide.")
+st.write("Fully open source -> huggingFace embeddings and GroQ")
 session_id=st.text_input("Session ID",value="default_session")
 if 'session_store' not in st.session_state:
         st.session_state.session_store={}
