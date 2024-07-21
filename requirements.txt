@@ -7,4 +7,4 @@ faiss-cpu
 python-dotenv
 langchain_groq
 pypdf
-streamlit
+streamlit = 1.29.0
